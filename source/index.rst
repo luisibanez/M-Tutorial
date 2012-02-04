@@ -13,9 +13,20 @@ Contents:
 
    Introduction
    RST_Reference
-   WRITE_Command
+   HALT_Command
    READ_Command
-
+   SET_Command
+   WRITE_Command
+   ASCII_Function
+   CHAR_Function
+   EXTRACT_Function
+   FIND_Function
+   HOROLOG_Function
+   LENGTH_Function
+   PIECE_Function
+   RANDOM_Function
+   TRANSLATE_Function
+   Bibliography
 
 Indices and tables
 ==================

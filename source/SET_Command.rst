@@ -1,15 +1,12 @@
 =================
-READ Command
+SET Command
 =================
 
 Material prepared from `M Programming Book`_ [WALTERS1997]_
 
-Page 84-86.
+Page 38-39, 75-78.
 
 
-    READ "What is your name ?",!,YOURNAME
-
+    SET NAME="Thomas Jefferson"
 
 .. _M Programming book: http://books.google.com/books?id=jo8_Mtmp30kC&printsec=frontcover&dq=M+Programming&hl=en&sa=X&ei=2mktT--GHajw0gHnkKWUCw&ved=0CDIQ6AEwAA#v=onepage&q=M%20Programming&f=false
-
-
