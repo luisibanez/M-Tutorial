@@ -56,6 +56,9 @@ Contents:
    HOROLOG_Variable
    ECODE_Variable
    ETRAP_Variable
+   TEST_Variable
+   IO_Variable
+   STACK_Variable
 
    Arrays
    ArraySorting
