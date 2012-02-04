@@ -16,15 +16,20 @@ Contents:
 
 
    DO_Command
+   CLOSE_Command
    FOR_Command
    GOTO_Command
    HALT_Command
    IF_Command
    KILL_Command
+   NEW_Command
+   OPEN_Command
    QUIT_Command
    READ_Command
    SET_Command
+   USE_Command
    WRITE_Command
+   XECUTE_Command
 
    ASCII_Function
    CHAR_Function
@@ -42,12 +47,16 @@ Contents:
    RANDOM_Function
    SELECT_Function
    TRANSLATE_Function
+   TEXT_Function
 
    Arrays
    ArraySorting
+   Devices
    GlobalVariables
    NakedReferences
    Postconditionals
+   IndirectionOperator
+   ParameterPassing
    Bibliography
 
 Indices and tables
