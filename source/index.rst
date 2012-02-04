@@ -13,19 +13,33 @@ Contents:
 
    Introduction
    RST_Reference
+
+
+   DO_Command
+   FOR_Command
+   GOTO_Command
    HALT_Command
+   IF_Command
+   KILL_Command
+   QUIT_Command
    READ_Command
    SET_Command
    WRITE_Command
+
    ASCII_Function
    CHAR_Function
    EXTRACT_Function
    FIND_Function
+   FNUMBER_Function
    HOROLOG_Function
+   JUSTIFY_Function
    LENGTH_Function
    PIECE_Function
    RANDOM_Function
+   SELECT_Function
    TRANSLATE_Function
+
+   Postconditionals
    Bibliography
 
 Indices and tables
