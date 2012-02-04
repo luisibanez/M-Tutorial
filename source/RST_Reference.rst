@@ -2,7 +2,48 @@
 RST_Reference
 =================
 
+
 This file provides basic examples of RST formatting.
+
+Here is documentation on how to use `RST Formatting`_
+
+.. _RST Formatting: http://sphinx.pocoo.org/rest.html
+
+
+Normally, there are no heading levels assigned to certain characters as the structure is determined from the succession of headings. However, for the Python documentation, this convention is used which you may follow:
+
+    # with overline, for parts
+    * with overline, for chapters
+    =, for sections
+    -, for subsections
+    ^, for subsubsections
+    ", for paragraphs
+
+
+Part I
+######
+
+Chapter 1
+*********
+
+Section
+=======
+
+Subsection
+----------
+
+Subsubsection
+^^^^^^^^^^^^^
+
+Paragraph
+"""""""""
+
+
+
+
+Basic Formatting
+################
+
 
 * This is a bulleted list.
 * It has two items, the second
@@ -96,3 +137,9 @@ Lorem ipsum [#f1]_ dolor sit amet ... [#f2]_
 
 .. [#f1] Text of the first footnote.
 .. [#f2] Text of the second footnote.
+
+Here is a citation reference: [WALTERS1997]_.
+
+.. [WALTERS1997] Richard Walters, M Programming, A Comprehensive Guide, Elsevier Digital Press, 1997.
+
+
