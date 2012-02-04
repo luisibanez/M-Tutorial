@@ -30,6 +30,9 @@ Contents:
    USE_Command
    WRITE_Command
    XECUTE_Command
+   ZEDIT_Command
+   ZLINK_Command
+   ZPRINT_Command
 
    ASCII_Function
    CHAR_Function
@@ -49,6 +52,11 @@ Contents:
    TRANSLATE_Function
    TEXT_Function
 
+   JOB_Variable
+   HOROLOG_Variable
+   ECODE_Variable
+   ETRAP_Variable
+
    Arrays
    ArraySorting
    Devices
@@ -57,6 +65,8 @@ Contents:
    Postconditionals
    IndirectionOperator
    ParameterPassing
+   ErrorHandling
+   ExtrinsicFunctions
    Bibliography
 
 Indices and tables
