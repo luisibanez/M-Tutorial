@@ -60,13 +60,20 @@ Contents:
    IO_Variable
    STACK_Variable
 
+   OperatorPrecedence
+   BinaryArithmetic_Operators
+   Indirection_Operator
+   UnaryArithmetic_Operators
+   Logical_Operators
+   Comparison_Operators
+   String_Operators
+
    Arrays
    ArraySorting
    Devices
    GlobalVariables
    NakedReferences
    Postconditionals
-   IndirectionOperator
    ParameterPassing
    ErrorHandling
    ExtrinsicFunctions
