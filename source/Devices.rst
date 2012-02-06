@@ -12,7 +12,7 @@ In order to utilize a resource in MUMPS, first gain access to the resource (ex: 
 
 Device types: (not exhaustive, GT.M implementation)
 
-.. Still missing columns with various properties of various devices.
+.. Still missing columns with various properties of various devices. Also need to mention $IO
 
 +----------+--------------+
 | Device   | Device Type  | 
