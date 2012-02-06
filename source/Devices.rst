@@ -6,6 +6,8 @@ Material prepared from `M Programming Book`_ [WALTERS1997]_
 
 Page 157-159
 
+
+
 +----------+--------------+
 | Device   | Device Type  |
 +==========+==============+
@@ -13,8 +15,15 @@ Page 157-159
 +----------+--------------+
 |  1       | Printer      |
 +----------+--------------+
-|  ...     | ...          |
+|  2       | Disk File    |
 +----------+--------------+
-
+|  3       | Disk File    |
++----------+--------------+
+|  4       | Disk File    |
++----------+--------------+
+|  5       |External      |
+|          |Communications| 
+|          |port          |
++----------+--------------+
 
 .. _M Programming book: http://books.google.com/books?id=jo8_Mtmp30kC&printsec=frontcover&dq=M+Programming&hl=en&sa=X&ei=2mktT--GHajw0gHnkKWUCw&ved=0CDIQ6AEwAA#v=onepage&q=M%20Programming&f=false
