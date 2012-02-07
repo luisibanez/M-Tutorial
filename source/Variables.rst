@@ -3,9 +3,7 @@ Variables
 
 Contents:
 
-.. toctree::
-   :maxdepth: 2
-
+In times when multiple processes are in motion, multiple Job variables are given, allowing for seperate identification of computational action.
 
    	HOROLOG_Variable:
 Containing such needed information as current date and time, important information for other functions can be computed from the $Horolog variable. The output form is in two numbers D and S, seperated by a comma. D represents the number of days since January 1st, 1841. S represents the seconds elapsed in the current day.
