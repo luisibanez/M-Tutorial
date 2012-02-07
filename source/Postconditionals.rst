@@ -12,7 +12,7 @@ When a GOTO or DO depends on a condition (the value of a variable), a postcondit
      WRITE !?3,"2. When was it created?"
      WRITE !?3,"3. Who created MUMPS?"
      WRITE !?3,"4. I know everything I need already, please quit."
-    retry READ !,"Answer with a number between 1 and 4",ans
+    retry READ !,"Answer with a number between 1 and 4: ",ans
      IF ans<1!(ans>4) GOTO retry
      QUIT:ans=4
      DO meaning:ans=1,date:ans=2,creator:ans=3
