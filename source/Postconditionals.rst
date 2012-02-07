@@ -4,7 +4,7 @@ Postconditionals
 
 Material prepared from `M Programming Book`_ [WALTERS1997]_ (page 107)
 
-When a GOTO or DO depends on a condition (the value of a variable), a postconditional can be used as an argument for these commands.::
+When a GOTO or DO depends on a condition (the value of a variable), a postconditional can be used as an argument for these commands::
 
     MENU
      WRITE "What would you like to know about MUMPS?"
