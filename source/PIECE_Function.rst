@@ -32,16 +32,16 @@ Examples
 
 |   GTM> SET FISH="Catfish,Cod,Salmon,Tuna"
 |
-|   GTM> $PIECE(FISH,",")
+|   GTM> WRITE $PIECE(FISH,",")
 |   Catfish
 |
-|   GTM> $PIECE(FISH,",",4)
+|   GTM> WRITE $PIECE(FISH,",",4)
 |   Tuna
 |
-|   GTM> $PIECE(FISH,",",1,3)
+|   GTM> WRITE $PIECE(FISH,",",1,3)
 |   Catfish,Cod,Salmon
 |
 |   GTM> SET $PIECE(FISH,",",1)="Trout"  
-|   GTM> WRITE B3
+|   GTM> WRITE FISH
 |   Trout,Cod,Salmon,Tuna
 
