@@ -120,6 +120,10 @@ Here is documentation on how to use `RST Markup`_
 
 .. _RST Markup: http://sphinx.pocoo.org/rest.html#rst-primer
 
+Here is a link to get `Sphinx`_
+
+.. _Sphinx: http://pypi.python.org/pypi/Sphinx
+
 
 Here is how to insert an image:
 
