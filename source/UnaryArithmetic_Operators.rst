@@ -4,14 +4,14 @@ Unary Arithmetic Operators
 
 Material prepared from `M Programming Book`_ [WALTERS1997]_
 
-Page 47 
+Page 47
 
 Unary operators are the + and - arithmatic operators if they appear in front of a single operand. Using Unary Operators, strings can be converted to numerical values. The unary plus sign converts does not change the string (It returns the numeric value of the string), the negative unary sign changes the sign of the value.
 
 Example:
 ::
 
-    SET A=0 
+    SET A=0
     SET B=1
     SET C=-1
 
