@@ -51,7 +51,7 @@ Examples::
 	GTM>WRITE $FIND("I","A")
 	0
 
-It is important to note that M, unlike C, includes whitespace in it's syntax, so that you cannot have a space after the comma seperating your arguments.::
+It is important to note that M, unlike C, includes whitespace in it's syntax, so that you cannot have a space after the comma seperating your arguments::
 	GTM>WRITE $FIND("I", "A")
 Will break on you.
 
