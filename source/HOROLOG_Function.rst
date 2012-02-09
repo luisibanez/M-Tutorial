@@ -3,7 +3,7 @@ HOROLOG Function
 =================
 
 Material prepared from `M Programming Book`_ [WALTERS1997]_
-
+ 
 Page 49
 
 
