@@ -2,14 +2,46 @@
 PIECE Function
 =================
 
-Material prepared from `M Programming Book`_ [WALTERS1997]_
+Description
+###########
+  **$PIECE(** *string*, *delimiter* *[ , first = 1 [, last ] ]* **)**
 
-Page 66-67.
+Splits a delimited string into pieces.
 
+Parameters
+###########
 
-    $PIECE
+String
+******
+(string) The string to partition
 
+Delimiter
+*********
+(string) The delimiter to use to split the string
 
-.. _M Programming book: http://books.google.com/books?id=jo8_Mtmp30kC&printsec=frontcover&dq=M+Programming&hl=en&sa=X&ei=2mktT--GHajw0gHnkKWUCw&ved=0CDIQ6AEwAA#v=onepage&q=M%20Programming&f=false
+First (optional)
+****************
+(integer) The first piece of the string to return. The default value is 1.
 
+Last (optional)
+***************
+(integer) The last piece of the string to return. The default is *first*, meaning it will only return one piece.
+
+Examples
+########
+
+|   GTM> SET FISH="Catfish,Cod,Salmon,Tuna"
+|
+|   GTM> WRITE $PIECE(FISH,",")
+|   Catfish
+|
+|   GTM> WRITE $PIECE(FISH,",",4)
+|   Tuna
+|
+|   GTM> WRITE $PIECE(FISH,",",1,3)
+|   Catfish,Cod,Salmon
+|
+|   GTM> SET $PIECE(FISH,",",1)="Trout"  
+|   GTM> WRITE FISH
+|   Trout,Cod,Salmon,Tuna
 
