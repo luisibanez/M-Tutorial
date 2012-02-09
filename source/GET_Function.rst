@@ -17,8 +17,8 @@ The second argument, which is optional, sets the value to return if the variable
 Examples
 ########
 
->K SURNAME ; $GET(SURNAME) -> ""
+>K SURNAME ; $GET(SURNAME) -> ""    
 $GET(SURNAME,"unlisted") -> "unlisted"
 
->S SURNAME="Smith" ; $G(SURNAME) -> "Smith"
-$G (SURNAME,"Jackson") -> "Jackson"
+>S SURNAME="Smith" ; $G(SURNAME) -> "Smith"    
+$G (SURNAME,"Jackson") -> "Smith"
