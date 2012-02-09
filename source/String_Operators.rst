@@ -59,5 +59,6 @@ Example::
 	Expression             Result   
 	=====================  ====== 
 	"COPERNICUS"]"KEPLER"  0
+	"OBAMA"]"BUSH"	       1
 	=====================  ======
 
