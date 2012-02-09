@@ -52,7 +52,9 @@ Examples::
 	0
 
 It is important to note that M, unlike C, includes whitespace in it's syntax, so that you cannot have a space after the comma seperating your arguments::
+
 	GTM>WRITE $FIND("I", "A")
+
 Will break on you.
 
 .. [#f1] Book was unavailable at specified page at the time of writing.
