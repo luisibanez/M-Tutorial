@@ -65,7 +65,7 @@ Example of possible device numbers: (UCD MicroMUMPS implementation, example out 
 
 Device numbers can be used to access the resource after it has been opened.
 
-
+.. Need to provide code samples.
 
 .. _M Programming book: http://books.google.com/books?id=jo8_Mtmp30kC&printsec=frontcover&dq=M+Programming&hl=en&sa=X&ei=2mktT--GHajw0gHnkKWUCw&ved=0CDIQ6AEwAA#v=onepage&q=M%20Programming&f=false
 
