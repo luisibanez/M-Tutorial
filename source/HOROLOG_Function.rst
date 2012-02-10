@@ -4,7 +4,7 @@ HOROLOG Function
 
 Material prepared from `M Programming Book`_ [WALTERS1997]_
  
-Page 49
+Page 49 and page 228.
 
 
     $HOROLOG
