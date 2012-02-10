@@ -142,8 +142,8 @@ Lorem ipsum [#f1]_ dolor sit amet ... [#f2]_
 .. [#f1] Text of the first footnote.
 .. [#f2] Text of the second footnote.
 
-Here is a citation reference: [WALTERS1997]_.
+Here is a citation reference: [BENKLER2006]_.
 
-.. [WALTERS1997] Richard Walters, M Programming, A Comprehensive Guide, Elsevier Digital Press, 1997.
+.. [BENKLER2006] Yochai Benkler, The Wealth of Networks, 2006.
 
 
