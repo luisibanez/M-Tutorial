@@ -8,3 +8,6 @@ Bibliography
 .. [BHASKAR2010] Bhaskar, `GT.M Programmer's Guide`_,
 .. _GT.M Programmer's Guide: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/index.html
 
+.. [MOEL2005] de Moel, `M By Example`_,
+.. _M By Example: http://jacquardsystems.com/Examples/index.htm
+
