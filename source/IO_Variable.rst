@@ -2,6 +2,7 @@
 IO Variable
 ===========
 
+Input/Output Variable:
 ::
     $I[O]
 
