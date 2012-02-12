@@ -2,14 +2,28 @@
 CHAR Function
 =================
 
-Material prepared from `M Programming Book`_ [WALTERS1997]_
+Description
+###########
+  **$C[HAR](** *int1* [, *int2* [, ...]] **)**
 
-Page 68.
+Converts base ten integers into a single string of ASCII characters.
 
+Parameters
+###########
 
-    $CHAR
+(integer) One or more base ten integers.
 
+Examples
+########
 
-.. _M Programming book: http://books.google.com/books?id=jo8_Mtmp30kC&printsec=frontcover&dq=M+Programming&hl=en&sa=X&ei=2mktT--GHajw0gHnkKWUCw&ved=0CDIQ6AEwAA#v=onepage&q=M%20Programming&f=false
+::
 
+  GTM> WRITE $CHAR(65,66,67)
+  ABC
+  GTM>W $C(65,66,67)
+  ABC
+  GTM>W $C(33)
+  !
+  GTM>W $C(40,-1,41) 
+  ()
 
