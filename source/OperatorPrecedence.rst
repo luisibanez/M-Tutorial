@@ -1,6 +1,25 @@
 ===================
 Operator Precedence
 ===================
+Contrary to other languages, MUMPS reads a mathematical sequence from left to right and disregards order of operations. 
+
+For example: 
+::
+   SET x=2+6/2
+
+   WRITE x
+ 
+x=4 (not 5)
+
+This may take a little getting used to for some, however; parentheses take precedence in a sequence. You can use them to override the left to right precedence. 
+
+To use the previous example: 
+::
+   SET x=2+(6/2)
+
+   WRITE x
+
+x=5
 
 Material prepared from `M Programming Book`_ [WALTERS1997]_
 

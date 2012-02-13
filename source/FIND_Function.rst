@@ -16,11 +16,11 @@ And it accepts any sort of capitalization: $Find, $find, $f, $FInd, $FiNd, are a
 
 The $FIND function takes two or three arguments as input::
 
-	$FIND("Hello", "el")
-	$FIND("Hello", "el", 2)
+	$FIND("Hello","el")
+	$FIND("Hello","el",2)
 	
-	$FIND(STRING1, STRING2)
-	$FIND(STRING1, STRING2, INT)
+	$FIND(STRING1,STRING2)
+	$FIND(STRING1,STRING2,INT)
 
 * The first argument is the string which is searched through.
 * The second argument is the substring to find inside of the first argument.
@@ -47,7 +47,7 @@ The $FIND function will return one of three things:
 Examples::
 	
 	GTM>WRITE $FIND("I","I")
-    2
+    	2
 	GTM>WRITE $FIND("I","A")
 	0
 

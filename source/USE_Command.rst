@@ -4,24 +4,32 @@ USE Command
 
 Material prepared from `M Programming Book`_ [WALTERS1997]_
 
-Page 161
+Page 161.
 
-After opening a device or file, a user must specify which device they wish to act upon with READ or WRITE statements. Due to the terminal based interaction system used by M, opening more than one file or device can creat an ambiguous situation in terms of specifying which to act upon. The USE command fixes this through a special variable, $IO, which designates the current device and sole device that is to be acted upon. 
+Command
+-------
+::
+	USE[:tvexpr] expr[:(keyword[=expr][:...])][,...]
 
-At login, the current device begins initialized as the terminal with $IO set to 0. To change to a different current device, the the USE command must be executed.
+Description
+-----------
 
-Each time USE is invoked, $IO is set to the specified device. 
+After opening a device or file, a user must specify which device they wish to act upon with ``READ`` or ``WRITE`` statements. Due to the terminal based interaction system used by M, opening more than one file or device can creat an ambiguous situation in terms of specifying which to act upon. The ``USE`` command fixes this through a special variable, ``$IO``, which designates the current device and sole device that is to be acted upon. 
 
-USE can also be invoked with U.
+At login, the current device begins initialized as the terminal with ``$IO`` set to 0. To change to a different current device, the ``USE`` command must be executed.
 
-eg:
+Each time ``USE`` is invoked, ``$IO`` is set to the specified device. 
 
-    USE 1 WRITE RECORD ;write RECORD to device 1 (specified when opened, could be a document, printer, etc..)
+``USE`` can also be invoked with ``U``.
 
+Example
+-------
+::
+	USE 1 WRITE RECORD ;write RECORD to device 1 (specified when opened, could be a document, printer, etc..)
 
-    USE 0 WRITE RECORD ; write output to device 0, the terminal
+	USE 0 WRITE RECORD ; write output to device 0, the terminal
 
-    U 1 READ RECORD ; read record from device one (eg: a document, or other input file/device)
+	U 1 READ RECORD ; read record from device one (eg: a document, or other input file/device)
 
 
 
