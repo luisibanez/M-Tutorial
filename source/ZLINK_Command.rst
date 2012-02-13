@@ -17,7 +17,10 @@ If there are no arguments or expressions, ZLINK uses the value of $ZSOURCE
 
 *expr2* is an optional string which controls compiler options.  If no expression is indicated, then ZLINK will use the $ZCOMPILE variable for compiler options.
 
-
+Here is an basic example of the ZLINK Command:
+::
+   ZL[INK] "file name"
+*"file name"* is the name of the file (excluding the .m) after the program has been run at least once or has been changed. 
 
 Material prepared from `M Programming Book`_ [WALTERS1997]_
 
