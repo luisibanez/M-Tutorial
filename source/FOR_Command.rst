@@ -24,7 +24,7 @@ Description
 This means that ``FOR I=10:-1:1 WRITE I,!`` will print the numbers from 
 10 to 1 in descending order as expected. ``variable`` will not be beyond ``limit`` after the loop exits.
 
-Ommitting ``limit`` will cause the loop to continue endlessly unless a command
+Omitting ``limit`` will cause the loop to continue endlessly unless a command
 inside the loop causes it to end (e.g. ``QUIT``).
 
 
