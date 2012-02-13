@@ -20,7 +20,7 @@ If there are no arguments or expressions, ZLINK uses the value of $ZSOURCE
 Here is an basic example of the ZLINK Command:
 ::
    ZL[INK] "file name"
-*"flie name"* is the name of the file (excluding the .m) after the program has been run at least once. 
+*"flie name"* is the name of the file (excluding the .m) after the program has been run at least once or has been changed. 
 
 Material prepared from `M Programming Book`_ [WALTERS1997]_
 
