@@ -47,7 +47,7 @@ The $FIND function will return one of three things:
 Examples::
 	
 	GTM>WRITE $FIND("I","I")
-    2
+    	2
 	GTM>WRITE $FIND("I","A")
 	0
 
