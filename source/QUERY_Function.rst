@@ -14,7 +14,8 @@ Command
 
 Description
 -----------
-``$QUERY`` takes a global variable array ("global") ``glvn`` to scan for a data values. A global is a persistent and dynamic tree containing text values. 
+``$QUERY`` takes a global variable array ("global") ``glvn`` to scan for
+data values. A global is a persistent and dynamic tree containing text values. 
 
 Example
 -------
@@ -36,7 +37,8 @@ Example
     ; Call query on the global
     SET Y=$QUERY(^X)
     ; 
-    ; Y is now ^X(0,1), and the value at this location can be retrieved with the Indirection Operator
+    ; Y is now ^X(0,1), and the value at this location can be retrieved
+    ; with the Indirection Operator
     WRITE !,@Y
     ; Output: A
     ;
@@ -46,7 +48,10 @@ Example
     ; Output: B
 
 
-Because the ``$QUERY`` function can be called not only with the original global but with the value of the global at a position, it can be repeatedly called using the Indirection Operator. 
+Because the ``$QUERY`` function can be called not only with the original
+global but with the value of the global at a position, it can be repeatedly
+called using the Indirection Operator to traverse through the nodes of the
+tree.
 
 
 ::
