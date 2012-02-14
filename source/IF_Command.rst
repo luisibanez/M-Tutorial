@@ -24,9 +24,11 @@ Even if Y is 8, but X is 3, "Hi" is still written.
 and the ELSE command
 
     IF H>5 WRITE "more than 5",!
-    ELSE WRITE "no more than 5",!
-	
+    ELSE  WRITE "no more than 5",!
+
 	In cases where the IF statement returns false, and the command following is not executed, an ELSE statement can be added. In the above case, where H is 3, "no more than 5" is output.
+
+Note that there must be two spaces in front of the "ELSE" command, because ELSE is a command without arguments.
 
 Note the addition of ',!' at the end of each line, this denotes a new line in the output.
 
