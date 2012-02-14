@@ -14,6 +14,8 @@ Contents:
    Introduction
    RST_Reference
 
+   Examples
+
    Commands
 
    Functions
