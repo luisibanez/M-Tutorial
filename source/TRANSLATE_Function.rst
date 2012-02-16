@@ -22,9 +22,9 @@ The third expression is also optional. This expression specifies the replacement
 
 Example:
 
-|   GTM>W $TR("hello")
+|   W $TR("hello")
 |   hello
-|   GTM>W $TR("hello","h","H") 
+|   W $TR("hello","h","H") 
 |   Hello
 
 
