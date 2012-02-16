@@ -9,7 +9,7 @@ Pages 39,112-113,147.
 
     HALT
 
-The HALT function is used to log off the system when you’re done working with the M interpreter. 
+The HALT command is used to log off the system when you’re done working with the M interpreter. 
 
 | Simply type HALT and hit <enter>.
 
