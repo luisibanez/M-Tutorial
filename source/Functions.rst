@@ -6,21 +6,7 @@ Contents:
 .. toctree::
 	:maxdepth: 2
 
-	ASCII_Function
-	
-		ASCII is a function that will return the ASCII integer equivalent (in decimal) of any character.
-
-		$ASCII	( CHARACTER )
-		$A		( CHARACTER )
-		
-		($A is just another alias for $ASCII).
-		
-		For example:
-			WRITE $ASCII("A")
-			
-		Will write:
-			65
-	
+	ASCII_Function	
 	CHAR_Function
 	
 		CHAR is a function that will return the Character associated any decimal character code in the current character set. You can find the current character set with the $ZCHSET function, which will return either M or UTF-8.

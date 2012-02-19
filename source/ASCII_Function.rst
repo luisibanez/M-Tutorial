@@ -4,12 +4,15 @@ ASCII Function
 
 Material prepared from `M Programming Book`_ [WALTERS1997]_
 
-Page 68.
+ASCII is a function that will return the ASCII integer equivalent (in decimal) of any character.
 
+$ASCII	( CHARACTER )
+$A		( CHARACTER )
 
-    $ASCII
+($A is just another alias for $ASCII).
 
-
-.. _M Programming book: http://books.google.com/books?id=jo8_Mtmp30kC&printsec=frontcover&dq=M+Programming&hl=en&sa=X&ei=2mktT--GHajw0gHnkKWUCw&ved=0CDIQ6AEwAA#v=onepage&q=M%20Programming&f=false
-
-
+For example:
+	WRITE $ASCII("A")
+	
+Will write:
+	65
