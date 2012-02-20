@@ -17,6 +17,9 @@ If called with LEVEL set to -1, $STACK will return the number of levels for whic
 If called with LEVEL greater than 0, but not greater than $STACK(-1), $STACK will return a string describing the command that created that level of the call stack -- either "DO", "XECUTE" or "$$" for an extrinsic function.
 
 The MODE parameter is optional. It's complicated, and I'm still figuring out what it does. You can set it to either:
+
 	"MCODE"
+
 	"PLACE"
+
 	"ECODE"
