@@ -22,8 +22,8 @@ If called with LEVEL greater than 0, but not greater than $STACK(-1), $STACK wil
 
 The MODE parameter is optional. It's complicated, and I'm still figuring out what it does. You can set it to either:
 
-	"MCODE"
+	* "MCODE" -- This will return the line of code with which the given level of the stack was called.
 
-	"PLACE"
+	* "PLACE" -- The address of the line of code with which the given level of the stack was called, or, if it was called by a string, the @ symbol.
 
-	"ECODE"
+	* "ECODE" -- This will return the error code that was added at the associated level of the call stack, or, if no such code exists, an empty string.
