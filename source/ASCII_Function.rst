@@ -2,17 +2,18 @@
 ASCII Function
 =================
 
-Material prepared from `M Programming Book`_ [WALTERS1997]_
-
 ASCII is a function that will return the ASCII integer equivalent (in decimal) of any character.
 
 $ASCII	( CHARACTER )
+
+or
+
 $A		( CHARACTER )
 
-($A is just another alias for $ASCII).
+Either of the above calls will return the ASCII integer code associated with CHARACTER
 
 For example:
-	WRITE $ASCII("A")
-	
-Will write:
+
+>	WRITE $ASCII("A")
+
 	65
