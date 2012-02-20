@@ -2,12 +2,18 @@
 STACK Variable
 ==============
 
-$STACK(LEVEL [, MODE])
-
-$ST(LEVEL [, MODE])
-
-
 The $STACK variable (abbreviated $ST) allows one to check the current state of the call stack.
+
+Command
+#######
+
+::
+	$STACK(LEVEL [, MODE])
+	$ST(LEVEL [, MODE])
+
+
+Function
+########
 
 If called with LEVEL set to 0, $STACK will return information about the way GTM was invoked.
 If called with LEVEL set to -1, $STACK will return the number of levels for which $STACK is defined.
