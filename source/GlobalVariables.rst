@@ -27,27 +27,29 @@ variable may not be saved and written to disk.
 Example
 ###########
 
-| SET ^A="Luis"
+::
 
-| SET B="Ibanez"
+	SET ^A="Luis"
+	
+	SET B="Ibanez"
+	
+	HALT
+	
+	WRITE ^A
+	
+	WRITE B
+	
+	KILL ^A
 
-| KILL
+	WRITE ^A
 
-| WRITE A
-
-| WRITE B
-
-| KILL
-
-This code will write out "Luis" for A but garbage for B because B is a local variable
-and will be erased when the program was killed.
+This code will write out "Luis" for A then garbage for B because B is a local variable
+and will be erased when the program is HALTed. It will then write garbage for the second write of A because the variable was KILLed.
 
 
 
 Material prepared from `M Programming Book`_ [WALTERS1997]_
 
 Page 145-148
-
-    ^MYLIST("Today",13.5,3)="Jogging"
 
 .. _M Programming book: http://books.google.com/books?id=jo8_Mtmp30kC&printsec=frontcover&dq=M+Programming&hl=en&sa=X&ei=2mktT--GHajw0gHnkKWUCw&ved=0CDIQ6AEwAA#v=onepage&q=M%20Programming&f=false
