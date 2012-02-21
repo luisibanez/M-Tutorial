@@ -17,14 +17,19 @@ Example
 ###########
 
 ::
+
 	IF x=3 SET y=3
+	
 	ELSE SET x=0
 
 Mumps will look at the value of $TEST to see if it needs to execute the ELSE statement.
 
 ::
+
 	IF x=3 DO^WORK
+	
 	ELSE SET x=0
+
 Again, Mumps will look at the value of $TEST to see if it needs to execute the ELSE statement. However, the WORK routine may have used IFs and timeouts, so the value of $TEST may have been changed inside the routine and not be correct for the ELSE statement. It is not recommended to do this. 
 
 Material prepared from FiS GT.M Programmer's Guide
