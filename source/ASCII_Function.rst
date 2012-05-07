@@ -2,16 +2,20 @@
 ASCII Function
 =================
 
-ASCII is a function that will return the ASCII integer equivalent (in decimal) of any character.
+Command
+-------
+::
 
-$ASCII(CHARACTER)
+    $ASCII(CHARACTER)
 
-$A(CHARACTER)
+Description
+-----------
+$A[SCII] is a function that will return the ASCII integer equivalent (in decimal) of any character.
 
-Either of the above calls will return the ASCII integer code associated with CHARACTER
 
-For example:
+Example
+-------
+::
 
-	>WRITE $ASCII("A")
-
-	65
+    >WRITE $ASCII("A")
+    65
