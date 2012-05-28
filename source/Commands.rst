@@ -13,6 +13,7 @@ Contents:
    HALT_Command
    IF_Command
    KILL_Command
+   MERGE_Command
    NEW_Command
    OPEN_Command
    QUIT_Command
