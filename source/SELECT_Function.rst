@@ -2,7 +2,8 @@
 SELECT Function
 =================
 
-Material prepared from `M Programming Book`_ [WALTERS1997]_
+Material prepared from `M Programming Book`_ [WALTERS1997]_ and `GT.M Programmer's Guide`_
+
 
 Page 92-94.
 
@@ -13,7 +14,7 @@ $SELECT
 The $SELECT or $S function receives as input a list of paired expression arguments. It returns the first (and only the first) truth expression it encounters. For example::
 
 	GTM>WRITE $SELECT(0:"False",1:"True",1:"Also True")
-	
+
 	True
 
 If there is no true value within the input list, the function generates a run-time error. For example::
@@ -30,6 +31,9 @@ Below there is an example of use of the function::
 
 	X is smaller than 10
 
-.. _M Programming book: http://books.google.com/books?id=jo8_Mtmp30kC&printsec=frontcover&dq=M+Programming&hl=en&sa=X&ei=2mktT--GHajw0gHnkKWUCw&ved=0CDIQ6AEwAA#v=onepage&q=M%20Programming&f=false
+`$SELECT page at GT.M Programmer's Guide`_
 
+.. _M Programming book: http://books.google.com/books?id=jo8_Mtmp30kC&printsec=frontcover&dq=M+Programming&hl=en&sa=X&ei=2mktT--GHajw0gHnkKWUCw&ved=0CDIQ6AEwAA#v=onepage&q=M%20Programming&f=false
+.. _GT.M Programmer's Guide: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/index.html
+.. _$SELECT page at GT.M Programmer's Guide: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch07s20.html
 
