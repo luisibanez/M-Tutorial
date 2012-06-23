@@ -5,6 +5,7 @@ Contrary to other languages, MUMPS reads a mathematical sequence from left to ri
 
 For example: 
 ::
+
    SET x=2+6/2
 
    WRITE x
@@ -15,6 +16,7 @@ This may take a little getting used to for some; however, parentheses take prece
 
 To use the previous example: 
 ::
+
    SET x=2+(6/2)
 
    WRITE x

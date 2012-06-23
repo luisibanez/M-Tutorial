@@ -5,7 +5,7 @@ MERGE Command
 Material prepared from `GT.M Programmer's Guide`_
 
 $MERGE
-#####
+######
 
 The $MERGE command copies a variable and all its descendants into another variable.
 
@@ -77,4 +77,6 @@ Notes
 
 `$MERGE page at GT.M Programmer's Guide`_
 
+.. _GT.M Programmer's Guide: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/index.html
 .. _$MERGE page at GT.M Programmer's Guide: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch06s15.html
+

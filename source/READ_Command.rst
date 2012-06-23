@@ -15,15 +15,16 @@ Page 84-86.
 
 Read Command:
 
-  R[EAD]
+    R[EAD]
 
 Arguments:
 
-  Must be one of the following:
-      string literal
-      format command
-      variable[#count][:timeout]
-      *variable[:timeout]
+Must be one of the following:
+
+- string literal
+- format command
+- variable[#count][:timeout]
+- *variable*[:timeout]
 
 If the argument is a string literal or format command, the READ command cancels any pending read-ahead then functions as a WRITE command.
 

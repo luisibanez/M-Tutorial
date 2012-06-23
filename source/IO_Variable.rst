@@ -4,12 +4,14 @@ IO Variable
 
 Input/Output Variable:
 ::
+
     $I[O]
 
 The I/O Variable is an intrinsic special variable, as seen by the '$' prefix.  The I/O Variable is a variable which designates the current I/O stream.  This variable *can* be changed using the :doc:`NEW_Command` and :doc:`SET_Command` commands.
 
 You can see the value of the I/O variable with the following code:
 ::
+
     W $I
 
 

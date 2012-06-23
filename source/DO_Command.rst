@@ -47,4 +47,7 @@ Examples
 | ELSE DO
 | . WRITE "I'm sorry, you are underage",!
 |
-*outputs "You are able to drink!" if the age variable is greater than 20. Otherwise, outputs "I'm sorry, you are underage",!*
+
+*outputs "You are able to drink!" if the age variable is greater than 20. Otherwise, outputs "I'm sorry, you are underage",!* 
+
+

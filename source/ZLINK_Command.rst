@@ -5,12 +5,13 @@ ZLINK adds an exectuable GTM routine if the current process does not have a copy
 
 ZLINK Command:
 ::
+
     ZL[INK][:tvexpr] [expr1[:expr2][,...]]
 
 
 *tvexpr* is an optional truth-valued expression that controls if GTM executes a command or not.
 
-*expr1* is an optional expression that designates the pathname of a routine. 
+*expr1* is an optional expression that designates the pathname of a routine.
 
 If there are no arguments or expressions, ZLINK uses the value of $ZSOURCE
  -Note that if there are no arguments then two spaces must follow ZLINK before        another command.
@@ -19,8 +20,11 @@ If there are no arguments or expressions, ZLINK uses the value of $ZSOURCE
 
 Here is an basic example of the ZLINK Command:
 ::
+
    ZL[INK] "file name"
-*"file name"* is the name of the file (excluding the .m) after the program has been run at least once or has been changed. 
+
+*"file name"* is the name of the file (excluding the .m) after the program has been run at least once or has been changed.
+
 
 Material prepared from `M Programming Book`_ [WALTERS1997]_
 

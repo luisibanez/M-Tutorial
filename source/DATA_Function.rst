@@ -8,6 +8,7 @@ Page 138-140.
 
 The data function is used to find the value and descendent status of a local or global variable.
 It returns an integer code to give this information.  The four return values are as follows:
+
     -If the variable is undefined, $DATA() returns 0.
     -If the variable has a value but no descendants, $DATA() returns 1.
     -If the variable has descendants but no value, $DATA() returns 10.

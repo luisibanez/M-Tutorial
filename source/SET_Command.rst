@@ -8,13 +8,17 @@ Page 38-39, 75-78.
 
 Command
 -------
+
     ``S[ET] variable=expression``
+
 Example
 -------
+
     ``SET NAME="Thomas Jefferson"``
 
 Notes
 -----
+
 ``SET`` assigns the value of the expression to the variable, creating it if it
 does not exist.
 

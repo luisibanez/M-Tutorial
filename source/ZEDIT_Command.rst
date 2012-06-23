@@ -18,20 +18,16 @@ Examples
 ::
 
     GTM>zedit "helloworld"
-    
+
     GTM>zed "fibonacci"
 
 Alternatively, a variable containing a string literal may be used as the file argument::
 
     GTM>Set name="myFirstRoutine"
-    
+
     GTM>zedit name
 
 
-
-____________________________
-
-____________________________
 
 Material prepared from `M Programming Book`_ [WALTERS1997]_
 

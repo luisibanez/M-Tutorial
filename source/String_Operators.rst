@@ -11,11 +11,11 @@ Example::
 	Assume A="JACK" and B="JILL"
 	
 	===========  =============
-	Expression   Result   
-	===========  ============= 
-	A_"s DOG"    JACKs DOG 
-	B_A          JILLJACK  
-	A_" and "_B  JACK and JILL  
+	Expression   Result
+	===========  =============
+	"A_"s DOG""  JACKs DOG
+	B_A          JILLJACK
+	A_" and "_B  JACK and JILL
 	===========  =============
 
 Equality
@@ -25,10 +25,10 @@ The = (equal sign) symbol is used to compare two strings to see if they are equa
 
 Examples::
 	==============  ======
-	Expression      Result   
-	==============  ====== 
+	Expression      Result
+	==============  ======
 	2000+11=2011    1
-	2000="2000: B"  0  
+	2000="2000: B"  0
 	2011=02011      1
         2011="02011"    0
         "Hex"="Tech"+5  5
@@ -42,8 +42,8 @@ The [ (left square bracket) symbol is used to check if a string contains another
 
 Examples::
 	==================  ======
-	Expression          Result   
-	==================  ====== 
+	Expression          Result
+	==================  ======
 	"RENSSELAER"["AER"  1
 	"RENSSELAER"["NOT"  0
 	==================  ======
@@ -56,8 +56,8 @@ The ] (right square bracket) symbol is used to determine if a string follows ano
 
 Example::
 	=====================  ======
-	Expression             Result   
-	=====================  ====== 
+	Expression             Result
+	=====================  ======
 	"COPERNICUS"]"KEPLER"  0
 	"OBAMA"]"BUSH"	       1
 	=====================  ======
