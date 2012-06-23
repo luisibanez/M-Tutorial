@@ -1,23 +1,25 @@
+.. _set-command-label:
+
 =================
 SET Command
 =================
 
-Material prepared from `M Programming Book`_ [WALTERS1997]_
+Material prepared from `M Programming Book`_ [WALTERS1997]_ (Page 38-39, 75-78) and `GT.M Programmer's Guide`_
 
-Page 38-39, 75-78.
+Description
+###########
 
-Command
--------
+**S[ET]** variable=expression
 
-    ``S[ET] variable=expression``
+Examples
+########
 
-Example
--------
+::
 
-    ``SET NAME="Thomas Jefferson"``
+    SET NAME="Thomas Jefferson"
 
 Notes
------
+#####
 
 ``SET`` assigns the value of the expression to the variable, creating it if it
 does not exist.
@@ -33,4 +35,19 @@ Multiple ``SET`` commands can be combined into one using commas.
     created in the earlier parts.
 
 
+Related
+#######
+
+*  :ref:`new-command-label`
+*  :ref:`kill-command-label`
+
+
+References
+##########
+
+`SET page at GT.M Programmer's Guide`_
+
+
 .. _M Programming book: http://books.google.com/books?id=jo8_Mtmp30kC&printsec=frontcover&dq=M+Programming&hl=en&sa=X&ei=2mktT--GHajw0gHnkKWUCw&ved=0CDIQ6AEwAA#v=onepage&q=M%20Programming&f=false
+.. _GT.M Programmer's Guide: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/index.html
+.. _SET page at GT.M Programmer's Guide: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch06s20.html

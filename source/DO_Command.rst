@@ -1,9 +1,14 @@
+.. _do-command-label:
+
 =================
 DO Command
 =================
 
+Material prepared from `M Programming Book`_ (Page 103) [WALTERS1997]_ and `GT.M Programmer's Guide`_
+
 Description
 ###########
+
   **DO** *[[LABEL|LABEL^ROUTINENAME], ...]*
 
 Calls a subroutine.
@@ -40,7 +45,14 @@ Examples
 
 | SET A=4
 | DO FACTORIAL(A)
+|
 | *calls a function called factorial and passes in the current value of the variable, A. In this case, 4*
+|
+
+| DO REPORT^FACTORIAL
+|
+| *Start execution a the REPORT label in the routine FACTORIAL*
+|
 
 | IF age>20 DO
 | . WRITE "You are able to drink!",!
@@ -51,3 +63,17 @@ Examples
 *outputs "You are able to drink!" if the age variable is greater than 20. Otherwise, outputs "I'm sorry, you are underage",!* 
 
 
+Related
+#######
+
+*  :ref:`quit-command-label`
+
+
+References 
+##########
+
+`DO page at GT.M Programmer's Guide`_
+
+.. _M Programming book: http://books.google.com/books?id=jo8_Mtmp30kC&printsec=frontcover&dq=M+Programming&hl=en&sa=X&ei=2mktT--GHajw0gHnkKWUCw&ved=0CDIQ6AEwAA#v=onepage&q=M%20Programming&f=false
+.. _GT.M Programmer's Guide: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/index.html
+.. _DO page at GT.M Programmer's Guide: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch06s03.html

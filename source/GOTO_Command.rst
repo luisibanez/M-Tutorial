@@ -1,10 +1,15 @@
+.. _goto-command-label:
+
 =================
 GOTO Command
 =================
 
+Material prepared from `M Programming Book`_ (Page 104) [WALTERS1997]_ and `GT.M Programmer's Guide`_
+
 Description
 ###########
-*GOTO entryref[:tvexpr]*
+
+**GOTO** entryref[:tvexpr]
 
 The GOTO command transfers execution to the location specified by its argument, a label.
 
@@ -20,16 +25,33 @@ Other commands on a line with a GOTO have no use unless there is a postcondition
 
 Examples
 ########
-*GOTO LABEL*
 
-This command causes execution to continue starting at the line labeled *LABEL*.
+| GOTO LABEL
+|
+| *This command causes execution to continue starting at the line labeled LABEL*.
 
-*GOTO KITWARE+1*
+| GOTO FACTORIZE+1
+|
+| *This command causes execution to continue starting one line after the line labeled FACTORIZE*.
 
-This command causes execution to continue starting one line after the line labeled *KITWARE*.
+| GOTO LENOVO:i<5,IBM^CENTER
+|
+| *This command causes execution to continue at label LENOVO if i is less than 5, or to label IBM in routine ^CENTER otherwise.*
 
-*GOTO LENOVO:i<5,IBM^D*
 
-This command causes execution to continue at label *LENOVO* if *i* is less than 5, or to label *IBM* in routine *^D* otherwise.
+Related
+#######
+
+*  :ref:`do-command-label`
+*  :ref:`for-command-label`
+
+
+References
+##########
+
+`GOTO page at GT.M Programmer's Guide`_
+
 
 .. _M Programming book: http://books.google.com/books?id=jo8_Mtmp30kC&printsec=frontcover&dq=M+Programming&hl=en&sa=X&ei=2mktT--GHajw0gHnkKWUCw&ved=0CDIQ6AEwAA#v=onepage&q=M%20Programming&f=false
+.. _GT.M Programmer's Guide: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/index.html
+.. _GOTO page at GT.M Programmer's Guide: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch06s06.html

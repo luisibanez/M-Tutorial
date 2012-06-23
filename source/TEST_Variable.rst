@@ -1,3 +1,5 @@
+.. _test-variable-label:
+
 ================
 TEST Variable
 ================

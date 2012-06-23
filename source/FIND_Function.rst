@@ -57,6 +57,9 @@ It is important to note that M, unlike C, includes whitespace in it's syntax, so
 
 Will break on you.
 
+References
+##########
+
 `$FIND page at GT.M Programmer's Guide`_
 
 .. [#f1] Book was unavailable at specified page at the time of writing.

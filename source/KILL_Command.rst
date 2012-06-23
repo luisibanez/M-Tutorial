@@ -1,6 +1,10 @@
+.. _kill-command-label:
+
 =================
 KILL Command
 =================
+
+Material prepared from `M Programming Book`_ (Page 78) [WALTERS1997]_ and `GT.M Programmer's Guide`_
 
 **KILL** [:bool] *var1[,var2][,(ex1,ex2)]*
 
@@ -48,3 +52,19 @@ Optionally, an exclusive list (list of variables in parentheses) can be provided
 	SET A=1,B=2,C=3
 	KILL (A,B)
 	*A and B are kept, and the remaining variable C is deleted*
+
+Related
+#######
+
+*  :ref:`new-command-label`
+
+
+References
+##########
+
+`KILL page at GT.M Programmer's Guide`_
+
+
+.. _M Programming book: http://books.google.com/books?id=jo8_Mtmp30kC&printsec=frontcover&dq=M+Programming&hl=en&sa=X&ei=2mktT--GHajw0gHnkKWUCw&ved=0CDIQ6AEwAA#v=onepage&q=M%20Programming&f=false
+.. _GT.M Programmer's Guide: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/index.html
+.. _KILL page at GT.M Programmer's Guide: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch06s15.html
