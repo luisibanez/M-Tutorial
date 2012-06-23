@@ -8,14 +8,15 @@ Concatenation
 The _ (underscore) symbol is used concatenate two strings, or to attach one string to the end of another.
 
 Example::
+
 	Assume A="JACK" and B="JILL"
-	
+
 	===========  =============
 	Expression   Result
 	===========  =============
-	"A_"s DOG""  JACKs DOG
+	A\_"s DOG"    JACKs DOG
 	B_A          JILLJACK
-	A_" and "_B  JACK and JILL
+	A\_" and "_B  JACK and JILL
 	===========  =============
 
 Equality

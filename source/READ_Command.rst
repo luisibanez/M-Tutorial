@@ -24,7 +24,7 @@ Must be one of the following:
 - string literal
 - format command
 - variable[#count][:timeout]
-- *variable*[:timeout]
+- \*variable[:timeout]
 
 If the argument is a string literal or format command, the READ command cancels any pending read-ahead then functions as a WRITE command.
 
