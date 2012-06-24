@@ -11,11 +11,12 @@ Description
 Examples
 ########
 
+::
 
-| FIBONACCI ; compute the Fibonacci series
-|  SET (A,B)=1
-|  FOR I=1:1 SET S=A+B WRITE !,S SET A=B SET B=S QUIT:S>100
-|  WRITE !,"Result= ",S
+        FIBONACCI ; compute the Fibonacci series
+         SET (A,B)=1
+         FOR I=1:1 SET S=A+B WRITE !,S SET A=B SET B=S QUIT:S>100
+         WRITE !,"Result= ",S
 
 The first line containes the label FIBONACCI, followed by a comment. The
 semicolon is the symbol that marks the beginning of a comment.
@@ -44,15 +45,17 @@ Just like with many other languages, there are multiple styles for writing M
 code. We can rewrite the example above using the "Vertical" style of M as
 follows:
 
-| FIBONACCI ; compute the Fibonacci series
-|  SET A=1
-|  SET B=1
-|  FOR I=1:1 DO  QUIT:S>100
-|  . SET S=A+B
-|  . WRITE !,S
-|  . SET A=B
-|  . SET B=S
-|  WRITE !,"Result= ",S
+::
+
+              FIBONACCI ; compute the Fibonacci series
+               SET A=1
+               SET B=1
+               FOR I=1:1 DO  QUIT:S>100
+               . SET S=A+B
+               . WRITE !,S
+               . SET A=B
+               . SET B=S
+               WRITE !,"Result= ",S
 
 The vertical notation is easier to read, particulary for developers accostumed
 to other languages, and it is also more convenient for maintaining it in
