@@ -11,3 +11,6 @@ Bibliography
 .. [MOEL2005] de Moel, `M By Example`_,
 .. _M By Example: http://jacquardsystems.com/Examples/index.htm
 
+.. [MUMPSSOURCEFORGE2003] Ray Newman, `MUMPS Sourceforge`_,
+.. _MUMPS Sourceforge: http://mumps.sourceforge.net/
+
