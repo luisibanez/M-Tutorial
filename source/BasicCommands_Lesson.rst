@@ -1,3 +1,5 @@
+.. _basic-commands-lesson-label:
+
 ==============
 Basic Commands
 ==============
@@ -162,52 +164,4 @@ The exclamation point symbol can be used to insert new lines in the output to be
   Linus Torvalds
 
 
-The Short Form
-##############
-
-Commands in M can be shortened to the firt unambiguouos letters of the command name.
-
-For example:
-
-::
-
-   GTM> SET NAME="Elvis"
-   GTM> WRITE NAME
-
-can be shortened to
-
-::
-
-   GTM> S NAME="Elvis"
-   GTM> W NAME
-
-As a good practice of writing readable and maintainable code you should strive
-for writing the long form of the commands. However, it will be common for you
-to run into code that uses the short form, and therefore, this section is only
-intended to help you read such code, not as a recommendation of writing using
-the short form.
-
-The Horizontal Form
-###################
-
-Several M commands can be placed in the same line, separating them by spaces
-
-For example
-
-::
-
-   GTM> S NAME="Elvis" W NAME
-
-This is called the horizontal form, in contrast to the Vertical form
-
-::
-
-   GTM> S NAME="Elvis"
-   GTM> W NAME
-
-As a good practice of writing readable and maintainable code you should strive
-for writing the vertical form of the commands. However, it will be common for
-you to run into code that uses the horizontal form, and therefore, this section
-is only intended to help you read such code, not as a recommendation of writing
-using the horizontal form.
-
+Next Lesson: :ref:`basic-coding-style-lesson-label`
