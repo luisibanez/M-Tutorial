@@ -12,7 +12,8 @@ Contents:
    :maxdepth: 2
 
    Introduction
-   RST_Reference
+
+   Lessons
 
    Examples
 
@@ -34,6 +35,8 @@ Contents:
    ErrorHandling
    ExtrinsicFunctions
    Bibliography
+
+   RST_Reference
 
 Indices and tables
 ==================
