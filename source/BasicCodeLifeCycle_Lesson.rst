@@ -219,4 +219,4 @@ Ok,
 you many choose to use an editor different from `Vim`_.
 but... would you be as happy ?
 
-Next Lesson:
+Next Lesson:  :ref:`operator-precedence-lesson-label`
