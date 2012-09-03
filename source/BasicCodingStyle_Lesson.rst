@@ -31,7 +31,7 @@ It has been traditional to write M using uppercase letters as in
     WRITE NAME
     WRITE YEAR
     WRITE SUM
- 
+
 but the same can be written using lowercase letters as in
 
 ::
@@ -42,7 +42,7 @@ but the same can be written using lowercase letters as in
     write name
     write year
     write sum
- 
+
 Note however that lowercase variable names are differentiated from uppercase
 variable name. That is, they become two different variables.
 
