@@ -8,3 +8,5 @@ Contents:
 
    BasicCommands_Lesson
    BasicCodingStyle_Lesson
+   BasicCodeLifeCycle_Lesson
+

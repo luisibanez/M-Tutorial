@@ -164,4 +164,4 @@ The exclamation point symbol can be used to insert new lines in the output to be
   Linus Torvalds
 
 
-Next Lesson: :ref:`basic-coding-style-lesson-label`
+Next Lesson: :ref:`basic-coding-style-lesson-label`.

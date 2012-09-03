@@ -6,7 +6,7 @@ Basic Coding Style
 
 This Lesson is estimated to be completed in 5 minutes.
 
-You should have first completed the Lesson: :ref:`basic-commands-lesson-label`
+You should have first completed the Lesson: :ref:`basic-commands-lesson-label`.
 
 Description
 ###########
@@ -115,4 +115,4 @@ using the horizontal form.
 
 .. _maintainable: http://thc.org/root/phun/unmaintain.html
 
-Next Lesson: 
+Next Lesson: :ref:`basic-code-life-cycle-lesson-label`.
