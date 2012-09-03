@@ -204,4 +204,19 @@ which should print out the text
 and then return to the Linux shell prompt.
 
 
+Summary
+#######
+
+The development life cycle looks like
+
+::
+
+    vim             myprogram.m
+    mumps           myprogram.m
+    mumps -r   test^myprogram
+
+Ok,
+you many choose to use an editor different from `Vim`_.
+but... would you be as happy ?
+
 Next Lesson:
