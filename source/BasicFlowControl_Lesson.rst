@@ -137,4 +137,52 @@ time that the logical postconditional becomes true.
 
 .. _postconditionals: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch05s07.html#Postconditionals
 
+
+Variations
+==========
+
+The elements of the for-loop are options and therefore the following variations
+are easy to compose.
+
+Example
+*******
+
+Here we compute the powers of two by using a structure similar to a while loop
+
+::
+
+  set s=0
+  set i=1
+  for  do  quit:(i>100)
+  . write s,!
+  . s=s+i
+  . i=s
+
+Notice that here we are skipping the assignment and increment in the
+:ref:`for-command-label`, and therefore there must be two spaces between the
+**for** and **do**. The loop is terminated when the **i** variable is larger
+than 100.
+
+
+Walking a List
+==============
+
+The for-loop can also walk a list of items.
+
+For example
+
+::
+
+   for x="John","Paul","Ringo","George" do
+   . write x,!
+
+will print
+
+::
+
+    John
+    Paul
+    Ringo
+    George
+
 Next Lesson:
