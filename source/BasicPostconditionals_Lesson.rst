@@ -14,17 +14,49 @@ You should have first completed the Lessons:
 Description
 ###########
 
-Postconditional statements are one of the rather unique features of the M
+`Postconditionals`_ are one of the rather unique features of the M
 language.
 
 They are logical conditions that are appended to M Commands using the ":"
 symbol, and that determine whether the command will be executed or not.
 
-and also dive into the more M-specific `postconditionals`_.
+They follow the basic structure
 
-.. _postconditionals: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch05s07.html#Postconditionals
-The Quit Command
-################
+::
+
+      command:condition
+
+as in
+
+::
+
+    quit:(i>10)
+
+where the quit command will be executed if **i** is larger than 10
+
+
+`Postconditionals`_ are place between the command and its arguments.
+
+For example
+
+::
+
+   write:(i>10) "More than 10 iterations",!
+
+will write the message only if **i** is larger than 10.
+
+and
+
+::
+
+  set:(a<b) s=a
+
+will set **s** to the value of **a** only if **a** is less than **b**.
+
+
+.. _Postconditionals: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch05s07.html#Postconditionals
+
+
 
 
 Next Lesson:
