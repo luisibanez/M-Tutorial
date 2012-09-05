@@ -17,12 +17,8 @@ Description
 
 Flow control is an essential aspect of most programming languages.
 
-Here we cover in M the familar elements:
+Here we cover in M the familar FOR loop.
 
-* FOR
-* IF / ELSE
-
-and also dive into the more M-specific `postconditionals`_.
 
 The FOR Loop
 ############
@@ -38,7 +34,14 @@ It simplest form has the familiar structure of
 
    variable = initial value : increment : final value
 
-as in
+here we count from 0 to 12 in increments of 3
+
+::
+
+    for i=0:3:12 do
+    . write i,!
+
+Here we have a more general example
 
 ::
 
@@ -185,4 +188,4 @@ will print
     Ringo
     George
 
-Next Lesson:
+Next Lesson: :ref:`basic-conditionals-lesson-label`

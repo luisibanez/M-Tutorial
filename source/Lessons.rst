@@ -11,5 +11,7 @@ Contents:
    BasicCodeLifeCycle_Lesson
    OperatorPrecedence_Lesson
    BasicFlowControl_Lesson
+   BasicConditionals_Lesson
+   BasicPostconditionals_Lesson
 
 
