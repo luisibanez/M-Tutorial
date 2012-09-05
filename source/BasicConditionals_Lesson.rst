@@ -16,7 +16,7 @@ Description
 
 Flow control is an essential aspect of most programming languages.
 
-Here we cover in M the IF / ELSE commands
+Here we cover in M the `IF`_ / `ELSE`_ commands.
 
 
 The IF Command
