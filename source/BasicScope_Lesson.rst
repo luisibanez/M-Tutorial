@@ -87,9 +87,11 @@ For example, in the following code:
   main() ;;
    set sum=1500
    set x=6
-   set y=$$triangle(x)
-   write y,!
    write sum,!
+   set y=$$triangle(x)
+   write sum,!
+   write y,!
+   quit
 
 The variable "sum" that is defined in the "main" function is available to the
 internal commands of the "triangle" function. Therefore, the SET commands
@@ -116,9 +118,11 @@ modified code below:
   main() ;;
    set sum=1500
    set x=6
-   set y=$$triangle(x)
-   write y,!
    write sum,!
+   set y=$$triangle(x)
+   write sum,!
+   write y,!
+   quit
 
 Now that we use "new sum" in the "triangle" function, we make clear that the
 "sum" variable is going to have local scope, and therefore the "SET" commands
