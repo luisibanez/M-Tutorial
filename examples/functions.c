@@ -1,7 +1,9 @@
+// This function computes a factorial
 #include <stdio.h>
 
 int factorial(int n) {
- int f=n;
+ int f;
+ f=n;
  for(;n>1;) {
    n=n-1;
    f=f*n;
@@ -11,7 +13,8 @@ int factorial(int n) {
  }
 
 int main() {
- int x=factorial(5);
- printf("%d",x);
+ int x=5;
+ int y=factorial(x);
+ printf("Factorial of %d = %d\n",x,y);
  return 0;
  }
