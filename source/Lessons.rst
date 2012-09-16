@@ -13,5 +13,6 @@ Contents:
    BasicFlowControl_Lesson
    BasicConditionals_Lesson
    BasicPostconditionals_Lesson
+   BasicScope_Lesson
 
 
