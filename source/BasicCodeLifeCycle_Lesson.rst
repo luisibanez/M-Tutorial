@@ -34,7 +34,11 @@ For example
    ZEDIT "myprogram"
 
 This will open the default text editor and will allow you to start typing the
-code of your program.
+code of your program.  Note that since the program will be written in M,
+you have use the ".m" suffix when referring to it with the ZEDIT command.
+
+This means to edit the routine you will invoke as DO ^test you will use
+the ZEDIT "test.m"  command.
 
 The default editor is `Vim`_. You can change this default by setting in your
 Linux shell the environment variable `EDITOR`_ to point to your favorite text
@@ -81,20 +85,21 @@ The content that we just wrote, is usually refered as a `Routine`_ in M.
 
 Note that the first line of the program has the word "test" in the first column
 of text. This indicates that "test" is a `label`_ that makes possible to refer
-to this line of code from multiple places in M. The label is followed by a ";"
-which marks the beginning of a `comment`_. The scope of the comment goes from
-the semicolon up to the end of the line.
+to this line of code from multiple places in M. The label is followed by a space
+and then a ";" which marks the beginning of a `comment`_. 
+The scope of the comment goes from the semicolon up to the end of the line.
 
 .. _Routine: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch05s11.html
 .. _label: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch05s11.html
 .. _comment: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch05s11.html
 
-The second line of the routine starts in the second column. This indicates that
-the word is a command and not a label. We have already covered what the
+The second line of the routine starts after the initial space, in the second column. 
+This indicates that the word is a command and not a label. This is an example of the
+WRITE command. We have already covered what the
 :ref:`write-command-label` does.
 
 The third and final line of the routine contains the :ref:`quit-command-label`
-starting in the second column. The QUIT command indicates the end of the
+starting after the initial space. The QUIT command indicates the end of the
 routine execution and returns to the section of code that called this routine.
 
 Compiling a File
@@ -109,21 +114,27 @@ For example
 
    ZLINK "myprogram"
 
-A program must be compiled every time that it is modified with an editor.
+A program must be compiled every time that it is modified with an editor, unless
+you HALT.  This ZLINK command forces GT.M to erase the copy of the program in
+memory and check the ".m" file on disk, before re-compiling.  When a copy is
+not in memory, GT.M silently recompiles any compiled code that is less 
+up-to-date than its source code.
 
 
 Running the Code
 ################
 
 The :ref:`do-command-label` is used to trigger the execution of a given routine
-starting from the label that servers as its entry point.
+starting from the label that serves as its entry point.
 
-In our example above, we can execute this routine from the GT.M prompt by doing
+In our example above, we can execute this routine from the GT.M prompt by using the
+command:
 
 ::
 
    GTM> DO test^myprogram
 
+this calls the subroutine identified with label "test" in the routine named "myprogram"
 and will produce
 
 ::
@@ -154,7 +165,7 @@ write the code
     write "hello2",!
     quit
 
-save the program and quit the editor.
+save the program and quit the editor. (note the space on the beginning of the 2nd and 3rd lines)
 
 
 Compiling Externally
@@ -216,7 +227,7 @@ The development life cycle looks like
     mumps -r   test^myprogram
 
 Ok,
-you many choose to use an editor different from `Vim`_.
+you may choose to use an editor different from `Vim`_.
 but... would you be as happy ?
 
 Next Lesson:  :ref:`operator-precedence-lesson-label`
