@@ -45,7 +45,7 @@ Linux shell the environment variable `EDITOR`_ to point to your favorite text
 editor.
 
 .. _Vim: http://www.vim.org/
-.. _EDITOR: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch03s02s05.html
+.. _EDITOR: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch03s02.html#Editor
 
 Once you have the editor open, you can type, for example:
 
