@@ -59,4 +59,4 @@ will set **s** to the value of **a** only if **a** is less than **b**.
 
 
 
-Next Lesson:
+Next Lesson: :ref:`basic-scope--lesson-label`
