@@ -28,39 +28,42 @@ the program will continue executing commands after the DO.
 Parameters
 ###########
 
-LABEL
-*****
-(string) The label to jump to
+**LABEL**
+ (string) The label to jump to
 
-LABEL^ROUTINENAME
-*****************
-(string) The label and routine name to jump to
+**LABEL^ROUTINENAME**
+ (string) The label and routine name to jump to
 
 Examples
 ########
 
-| DO TEST
-| *jumps to label test*
-|
+::
 
-| SET A=4
-| DO FACTORIAL(A)
-|
-| *calls a function called factorial and passes in the current value of the variable, A. In this case, 4*
-|
+  DO TEST
+*jumps to label test*
 
-| DO REPORT^FACTORIAL
-|
-| *Start execution a the REPORT label in the routine FACTORIAL*
-|
 
-| IF age>20 DO
-| . WRITE "You are able to drink!",!
-| ELSE DO
-| . WRITE "I'm sorry, you are underage",!
-|
+::
 
-*outputs "You are able to drink!" if the age variable is greater than 20. Otherwise, outputs "I'm sorry, you are underage",!* 
+  SET A=4
+  DO FACTORIAL(A)
+*calls a function called factorial and passes in the current value of the variable, A. In this case, 4*
+
+
+::
+
+  DO REPORT^FACTORIAL
+*Start execution a the REPORT label in the routine FACTORIAL*
+
+
+::
+
+  IF age>20 DO
+  . WRITE "You are able to drink!",!
+  ELSE DO
+  . WRITE "I'm sorry, you are underage",!
+ 
+*outputs "You are able to drink!" if the age variable is greater than 20. Otherwise, outputs "I'm sorry, you are underage!"* 
 
 
 Related
