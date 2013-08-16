@@ -35,7 +35,7 @@ For example
 
 This will open the default text editor and will allow you to start typing the
 code of your program.  Note that since the program will be written in M,
-you have use the ".m" suffix when referring to it with the ZEDIT command.
+you have to use the ".m" suffix when referring to it with the ZEDIT command.
 
 This means to edit the routine you will invoke as DO ^test you will use
 the ZEDIT "test.m"  command.
@@ -55,7 +55,7 @@ Once you have the editor open, you can type, for example:
     write "hello",!
     quit
 
-Then save the file and quite the editor.
+Then save the file and quit the editor.
 
 This will return you to the GT.M prompt.
 
