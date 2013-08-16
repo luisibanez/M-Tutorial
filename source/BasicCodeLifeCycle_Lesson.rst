@@ -67,7 +67,7 @@ The file will be saved in the directory defined in your `gtmroutines`_
 environment variable. Check the content of this variable in your Linux shell by
 using the command
 
-.. _gtmroutines: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch03s02s04.html
+.. _gtmroutines: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch03s02.html#gtmroutines
 
 ::
 
@@ -179,7 +179,7 @@ Once back in the Linux shell command line, type:
 
 This will trigger the `compilation`_ of the routine and will result in an additional file
 
-.. _compilation: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch03s05s02.html
+.. _compilation: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch03s05.html
 
 ::
 
