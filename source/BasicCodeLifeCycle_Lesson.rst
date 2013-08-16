@@ -22,7 +22,7 @@ to other M systems.
 Editing a File
 ##############
 
-From the GT.M interpreter on can start editing a file by invoking the :ref:`zedit-command-label`.
+From the GT.M interpreter you can start editing a file by invoking the :ref:`zedit-command-label`.
 
 The argument should be a valid filename for the Linux file system, without any
 extension.
