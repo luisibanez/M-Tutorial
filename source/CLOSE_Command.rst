@@ -14,16 +14,25 @@ If the connection does not exist, the close command is ignored. Parameters can b
 
 Examples
 ########
+::
 
-| CLOSE "/dev/thermometer"  closes a thermometer device
-| CLOSE "/dev/thermometer":(READY) closes a thermometer device and sets it as ready
-|
+  CLOSE "/dev/thermometer"  
+*closes a thermometer device*
 
-| CLOSE 1
-| *Closes the printer*
+::
 
-| CLOSE 5
-| *Closes the external communications port*
+  CLOSE "/dev/thermometer":(READY) 
+*closes a thermometer device and sets it as ready*
+
+::
+
+  CLOSE 1
+*closes the printer*
+
+::
+
+  CLOSE 5
+*closes the external communications port*
 
 See :ref:`devices-label` for a list of device identifiers.
 
