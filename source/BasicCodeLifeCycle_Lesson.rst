@@ -81,7 +81,7 @@ In the example above, we will have the file:
 
     myprogram.m
 
-The content that we just wrote, is usually refered as a `Routine`_ in M.
+The content that we just wrote, is usually refered to as a `Routine`_ in M.
 
 Note that the first line of the program has the word "test" in the first column
 of text. This indicates that "test" is a `label`_ that makes possible to refer
@@ -228,6 +228,6 @@ The development life cycle looks like
 
 Ok,
 you may choose to use an editor different from `Vim`_.
-but... would you be as happy ?
+but... would you be as happy?
 
 Next Lesson:  :ref:`operator-precedence-lesson-label`
