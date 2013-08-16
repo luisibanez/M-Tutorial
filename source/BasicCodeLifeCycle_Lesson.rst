@@ -51,7 +51,7 @@ Once you have the editor open, you can type, for example:
 
 ::
 
-   test ; my first programhttp://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch03s07.html
+   test ; my first program
     write "hello",!
     quit
 
