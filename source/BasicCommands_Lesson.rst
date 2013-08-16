@@ -102,9 +102,9 @@ Examples
 Space Matters
 #############
 
-Commands must be separated from their arguments by one and only one `space`_.
+`Commands`_ must be separated from their arguments by one and only one space.
 
-.. _space: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch05s07.html
+.. _Commands: http://tinco.pair.com/bhaskar/gtm/doc/books/pg/UNIX_manual/ch05s07.html
 
 Note that between the SET command and the variable NAME there is only one space.
 
